@@ -1,0 +1,7 @@
+Goal: Is to write our java program, it will write out a simple message
+
+Name Class: FirstClassDemo
+
+Methods: Main method writes a message
+
+
