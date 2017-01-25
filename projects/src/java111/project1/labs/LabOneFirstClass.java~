@@ -8,7 +8,6 @@ public class LabOneFirstClass {
  
     /**
      * This is the main method for this class
-     * It will output a hello message
      * 
      * @param args
      */

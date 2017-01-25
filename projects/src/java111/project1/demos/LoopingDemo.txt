@@ -1,0 +1,12 @@
+Goal: Demonstrate looping using While and also 
+        to demonstrate print vs. println
+        
+        Class name: LoopingDemo
+        
+        method: main will 
+            - create a variable
+            - assign value (a number)
+            - use that variable in a while loop
+            - print out the value of variable in the loop
+            - demonstrate use of println versus print
+            

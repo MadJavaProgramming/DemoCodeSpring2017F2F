@@ -1,0 +1,6 @@
+goal: Assign values to variables and demonstrate conditional logic (if/else)
+
+class name: AssignmentDemo
+
+method: main - create a couple variables, assign values to those variables, and
+            and then use the variables in an if/else /** 
