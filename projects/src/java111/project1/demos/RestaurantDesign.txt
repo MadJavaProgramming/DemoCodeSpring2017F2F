@@ -1,0 +1,12 @@
+Goal - is to create a class that represents a restaurant
+
+Class - Restaurant
+
+Instance Variables:
+
+    String address
+    String name
+    int rating
+
+Method
+    display - to output the instance variables. 

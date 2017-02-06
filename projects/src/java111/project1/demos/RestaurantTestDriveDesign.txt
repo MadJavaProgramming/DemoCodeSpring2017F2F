@@ -1,0 +1,10 @@
+Goal: is to create restaurant objects and display them. 
+       This is also the main starting point for the application
+
+       Class Name: RestaurantTestDrive
+       
+       Instance variables - not needed in the test drive
+       
+       method: main() - instantiate/create a restaurant object
+                        - assign values to the instance variables
+                        - call the display method on the restaurant
