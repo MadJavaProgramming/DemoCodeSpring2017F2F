@@ -12,8 +12,8 @@
            Restaurant restaurant1 = new Restaurant();
            Restaurant restaurant2 = new Restaurant();
            
-           restaurant1.setName("McDonalds");
-           restaurant2.setName("Culvers");
+           restaurant1.name = "McDonalds";
+           restaurant2.name = "Culvers";
            
            //display the restaurants
            System.out.print("Restaurant1 is : ");
@@ -35,7 +35,7 @@
            System.out.print("Restaurant3 is : ");
            restaurant3.display();
            
-           restaurant3.setName("Chick-Fil-A");
+           restaurant3.name = "Chick-Fil-A";
            
            //display the restaurants
            System.out.println();
@@ -48,7 +48,7 @@
            restaurant3.display();
            
            Restaurant restaurant4 = null;
-           restaurant4.setName("BlackIron");
+           restaurant4.name = "BlackIron";
            
            
        }

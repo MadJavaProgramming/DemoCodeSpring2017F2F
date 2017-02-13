@@ -15,9 +15,9 @@
           Restaurant restaurant1 = new Restaurant();
           
           // assign values to instance variables
-          restaurant1.setName("Red Robin");
-          restaurant1.setAddress("100 Main St, Madison, WI 53704");
-          restaurant1.setRating(1);
+          restaurant1.name = "Red Robin";
+          restaurant1.address = "100 Main St, Madison, WI 53704";
+          restaurant1.rating = 1;
           
           // call the display method
           restaurant1.display();

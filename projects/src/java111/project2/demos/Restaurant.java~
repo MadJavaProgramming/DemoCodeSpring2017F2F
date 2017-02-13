@@ -14,5 +14,5 @@
             System.out.println("The restaurant, " + name + ", is located at " + address +
                 " and is rated "  + rating + " star/s.");
          }
-  
+
  }
