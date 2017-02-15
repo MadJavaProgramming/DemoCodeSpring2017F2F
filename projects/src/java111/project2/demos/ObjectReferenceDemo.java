@@ -24,7 +24,6 @@
            // create a 3rd restaurant variable
            Restaurant restaurant3 = restaurant2;
          
-           
            //display the restaurants
            System.out.println();
            System.out.println("Adding a 3rd restaurant variable");

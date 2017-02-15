@@ -3,7 +3,6 @@
  */
 
  public class Restaurant {
- 
     private String address;
     private String name;
     private int rating;  // number of stars
