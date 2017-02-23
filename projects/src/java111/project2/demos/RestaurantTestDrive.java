@@ -12,50 +12,22 @@
       * @param args the command line arguments
       */
       public static void main(String[] args) {
-          // create a variable to hold restaurants
-          Restaurant[] restaurants; 
           
-          // instantiating the array to hold 3 restaurants
-          restaurants = new Restaurant[3];
+         ProcessRestaurant demo = new ProcessRestaurant();
+         demo.setUp();
+         
           
-          //counter for the loop
-          int counter = 0;
+          // comparing Strings (the restaurant name)
+     /*   String firstRestaurant = restaurants[0].getName();
+       String secondRestaurant = restaurants[1].getName();
           
-          // instantiate restaurant objects and assign them to the slots in the array     
-         restaurants[0] = new Restaurant();
-         restaurants[1] = new Restaurant();
-         restaurants[2] = new Restaurant();
-         //restaurants[3] = new Restaurant();
-          
-          // assign values to instance variables
-          restaurants[0].setName("Red Robin");
-          restaurants[0].setAddress("100 Main St, Madison, WI 53704");
-          restaurants[0].setRating(1);
-          
-          restaurants[1].setName("Garmish");
-          restaurants[1].setAddress("100 Hwy M, Cable, WI 53783");
-          restaurants[1].setRating(5);
-          
-          restaurants[2].setName("Black Iron");
-          restaurants[2].setAddress("100 Hwy 77, Hayward, WI 53784");
-          restaurants[2].setRating(4);
-          
-          // call the display method  using a while loop
-          while (counter < restaurants.length) {
-              restaurants[counter].display();
-              System.out.println();
-              counter++;
+          if (firstRestaurant.equals(secondRestaurant)){
+              System.out.println("It's the same");
+          } else {
+              System.out.println("It's not the same");
           }
-          
-          // call the display method in a for loop
-          for (int counter1 = 0; counter1 < restaurants.length; counter1++) {
-              restaurants[counter1].display();
-              System.out.println();
-          }
-          
-          
-          
+          */
        } 
-       
+     
        
  }
