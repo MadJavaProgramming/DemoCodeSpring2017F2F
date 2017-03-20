@@ -10,7 +10,7 @@ public class InvoiceItemTest {
     public static void main(String[] args) {
         //create the invoice item
         InvoiceItem item = new InvoiceItem();
-        
+        System.out.println("beginning the test");
         //set the values
         item.setQuantity(2);
         item.setPrice(10.00);
