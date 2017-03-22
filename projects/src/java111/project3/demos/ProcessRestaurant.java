@@ -88,12 +88,17 @@ import java.util.*;
      
      public void displayRestaurants() {
           // call the display method in a for loop
-          for (int counter1 = 0; counter1 < restaurants.size(); counter1++) {
+         /* for (int counter1 = 0; counter1 < restaurants.size(); counter1++) {
               //restaurants[counter1].display();
               //restaurants.get(counter1).display();
               // line above is the same as the following 2 lines
               Restaurant restaurant = restaurants.get(counter1);
               restaurant.display();
+              System.out.println();
+          }*/
+          
+          for (Restaurant myRestaurant : restaurants) {
+              myRestaurant.display();
               System.out.println();
           }
      }    
