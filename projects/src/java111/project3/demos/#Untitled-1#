@@ -1,0 +1,12 @@
+Restaurant as a superclass
+
+What would a couple subclasses be?  type
+
+Fast Food
+
+Fine Dining
+    Reservations
+
+Food Cart 
+    Current Location
+

@@ -1,0 +1,27 @@
+/** A food cart 
+ *  @author pwaite
+ */
+
+ public class FoodCart extends Restaurant {
+ 
+     private String location;
+	/**
+	 * Returns the value of location.
+	 * @return location
+	 */
+	public String getLocation() {
+		return location;
+	}
+
+
+	/**
+	 * Sets the value of location.
+	 * @param location The value to assign location.
+	 */
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	
+ 
+ }
