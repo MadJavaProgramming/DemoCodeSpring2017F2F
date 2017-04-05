@@ -2,7 +2,7 @@
  *  @author pwaite
  */
 
- public class Restaurant {
+ public abstract class Restaurant {
     private String address;
     private String name;
     private int rating;  // number of stars
@@ -50,9 +50,6 @@
     
     /** displays the address, name and rating of the restaurant
       */
-        public void display() {
-            System.out.println("The restaurant, " + getName() + ", is located at " + address +
-                " and is rated "  + rating + " star/s.");
-         }
+        public abstract void display();
 
  }

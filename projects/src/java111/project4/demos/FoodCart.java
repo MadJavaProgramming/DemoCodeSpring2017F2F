@@ -40,12 +40,11 @@
 	/** displays the address, name, rating and current location of the restaurant
       */
         public void display() {
-            System.out.println("The restaurant, " + getName() + ", with mailing address " + getAddress() +
-                " and is rated "  + getRating() + " star/s" + " and is currently located at: " + location );
+         
+            System.out.println("The restaurant, " + getName() + ", is located at " + getAddress() +
+                " and is rated "  + getRating() + " star/s");
+            System.out.println(" and is currently located at: " + location );
          }
 
-
-
-	
- 
+        
  }

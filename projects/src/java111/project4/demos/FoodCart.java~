@@ -4,24 +4,48 @@
 
  public class FoodCart extends Restaurant {
  
-     private String location;
-	/**
+     private String location;
+
+	/**
+
 	 * Returns the value of location.
-	 * @return location
-	 */
-	public String getLocation() {
-		return location;
-	}
-
-
-	/**
-	 * Sets the value of location.
-	 * @param location The value to assign location.
-	 */
-	public void setLocation(String location) {
-		this.location = location;
-	}
-
+	 * @return location
+
+	 */
+
+	public String getLocation() {
+
+		return location;
+
+	}
+
+
+
+
+
+	/**
+
+	 * Sets the value of location.
+
+	 * @param location The value to assign location.
+
+	 */
+
+	public void setLocation(String location) {
+
+		this.location = location;
+
+	}
+
+	/** displays the address, name, rating and current location of the restaurant
+      */
+        public void display() {
+            super.display();
+            System.out.println(" and is currently located at: " + location );
+         }
+
+
+
 	
  
  }

@@ -61,7 +61,7 @@ import java.util.*;
       // instantiate restaurant objects and assign them to the slots in the array     
          Restaurant restaurant1 = new Restaurant();
          Restaurant restaurant2 = new Restaurant();
-         Restaurant restaurant3 = new Restaurant();
+         FoodCart restaurant3 = new FoodCart();
          
           
           // assign values to instance variables
@@ -73,8 +73,9 @@ import java.util.*;
           restaurant2.setAddress("100 Hwy M, Cable, WI 53783");
           restaurant2.setRating(5);
           
-          restaurant3.setName("Black Iron");
+          restaurant3.setName("Carracas");
           restaurant3.setAddress("100 Hwy 77, Hayward, WI 53784");
+          restaurant3.setLocation("Square");
           restaurant3.setRating(4);
           
           localArrayList.add(restaurant1);

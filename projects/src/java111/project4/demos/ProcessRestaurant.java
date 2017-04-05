@@ -59,8 +59,8 @@ import java.util.*;
          // create a local variable to hold restaurants
          ArrayList<Restaurant> localArrayList = new ArrayList<Restaurant>();
       // instantiate restaurant objects and assign them to the slots in the array     
-         Restaurant restaurant1 = new Restaurant();
-         Restaurant restaurant2 = new Restaurant();
+         Restaurant restaurant1 = new FoodCart();
+         FoodCart restaurant2 = new FoodCart();
          FoodCart restaurant3 = new FoodCart();
          
           
