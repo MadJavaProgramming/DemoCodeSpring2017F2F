@@ -59,8 +59,8 @@ import java.util.*;
          // create a local variable to hold restaurants
          ArrayList<Restaurant> localArrayList = new ArrayList<Restaurant>();
       // instantiate restaurant objects and assign them to the slots in the array     
-         Restaurant restaurant1 = new FoodCart();
-         FoodCart restaurant2 = new FoodCart();
+         FastFood restaurant1 = new FastFood();
+         FineDining restaurant2 = new FineDining();
          FoodCart restaurant3 = new FoodCart();
          
           
@@ -72,6 +72,7 @@ import java.util.*;
           restaurant2.setName("Garmish");
           restaurant2.setAddress("100 Hwy M, Cable, WI 53783");
           restaurant2.setRating(5);
+          restaurant2.setAcceptsReservations(true);
           
           restaurant3.setName("Carracas");
           restaurant3.setAddress("100 Hwy 77, Hayward, WI 53784");
@@ -99,12 +100,13 @@ import java.util.*;
           }*/
           
           for (Restaurant myRestaurant : restaurants) {
-              myRestaurant.display();
+              System.out.println(myRestaurant);
               System.out.println();
           }
      }    
  
- 
+        // the left side (Restaurant) says which methods are available
+        // right side (new FastFood();) is where the jvm will look for the code (toString method)
  }
  
 

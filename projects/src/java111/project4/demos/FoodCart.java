@@ -39,11 +39,9 @@
 
 	/** displays the address, name, rating and current location of the restaurant
       */
-        public void display() {
+        public String toString() {
          
-            System.out.println("The restaurant, " + getName() + ", is located at " + getAddress() +
-                " and is rated "  + getRating() + " star/s");
-            System.out.println(" and is currently located at: " + location );
+            return super.toString() + " and is currently located at: " + location;
          }
 
         

@@ -1,0 +1,11 @@
+ArrayList<Object> fruits -- holds fruit
+
+Fruit apple = new Apple()
+Apple apple = new Apple();
+
+for (Fruit fruit : fruits)
+    fruit.display()
+
+
+
+Fruit.setSour()

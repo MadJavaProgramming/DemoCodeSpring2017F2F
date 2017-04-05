@@ -47,9 +47,11 @@
       public void setRating(int newRating) {
            rating = newRating;
       }
+      
+      public String toString() {
+          return "The restaurant, " + this.name + ", is located at " + this.getAddress() +
+                    " and is rated "  + getRating() + " star/s";
+      }
     
-    /** displays the address, name and rating of the restaurant
-      */
-        public abstract void display();
-
+  
  }
