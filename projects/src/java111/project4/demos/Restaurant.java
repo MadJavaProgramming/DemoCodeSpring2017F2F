@@ -2,10 +2,10 @@
  *  @author pwaite
  */
 
- public abstract class Restaurant {
+ public abstract class Restaurant implements Rateable {
     private String address;
     private String name;
-    private int rating;  // number of stars
+    private String rating;  // number of stars
     
     /** returns the value of the address
      * @return restaurant's address
@@ -37,14 +37,14 @@
       /** returns the value of the rating
      * @return restaurant's rating
      */
-     public int getRating(){
+     public String getRating(){
         return rating;   
      }
      
      /** set the value of the rating
       * @param newRating rating of the restaurant
       */
-      public void setRating(int newRating) {
+      public void setRating(String newRating) {
            rating = newRating;
       }
       

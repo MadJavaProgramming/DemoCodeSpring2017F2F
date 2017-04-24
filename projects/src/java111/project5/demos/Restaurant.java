@@ -1,14 +1,37 @@
-/** Represents a restaurant in a system like Yelp!
+package java111.project5.demos;
+
+/** Represents a restaurant in a system like Yelp. 
+ *  <ol>
+    <li>Some thing</li>
+    <li>Some other thing</li>
+    </ol>
  *  @author pwaite
  */
 
- public abstract class Restaurant {
+ public abstract class Restaurant implements Rateable {
     private String address;
     private String name;
-    private int rating;  // number of stars
+    private String rating;  // number of stars
+    
+    /** Constructor to create a restaurant
+     */
+     public Restaurant() {
+         //System.out.println("The Restaurant Class Constructor");
+     }
+     
+     /** Constructor to create a restaurant
+       * @param name name of the restaurant
+       * @param address address of the restaurant
+       * @param rating rating of the restaurant 1-5
+     */
+     public Restaurant(String name, String address, String rating) {
+         System.out.println("The Restaurant Class Constructor");
+         this.name = name;
+         this.address = address;
+         this.rating = rating;
+     }
     
     /** returns the value of the address
-     * @return restaurant's address
      */
      public String getAddress(){
         return address;   
@@ -37,14 +60,14 @@
       /** returns the value of the rating
      * @return restaurant's rating
      */
-     public int getRating(){
+     public String getRating(){
         return rating;   
      }
      
      /** set the value of the rating
       * @param newRating rating of the restaurant
       */
-      public void setRating(int newRating) {
+      public void setRating(String newRating) {
            rating = newRating;
       }
       
