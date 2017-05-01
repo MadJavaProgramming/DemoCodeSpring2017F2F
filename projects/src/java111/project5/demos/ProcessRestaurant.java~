@@ -60,22 +60,22 @@ import java.util.*;
          // create a local variable to hold restaurants
          ArrayList<Restaurant> localArrayList = new ArrayList<Restaurant>();
       // instantiate restaurant objects and assign them to the slots in the array     
-         FastFood restaurant1 = new FastFood();
+         FastFood restaurant1 = new FastFood("Red Robin", "100 Main St", "2", false);
          FineDining restaurant2 = new FineDining();
          FoodCart restaurant3 = new FoodCart();
          
           
           // assign values to instance variables
-          restaurant1.setName("Red Robin");
-          restaurant1.setAddress("100 Main St, Madison, WI 53704");
-          restaurant1.setRating("1");
+         // restaurant1.setName("Red Robin");
+         // restaurant1.setAddress("100 Main St, Madison, WI 53704");
+         // restaurant1.setRating("1");
           
           restaurant2.setName("Garmish");
           restaurant2.setAddress("100 Hwy M, Cable, WI 53783");
           restaurant2.setRating("5");
           restaurant2.setAcceptsReservations(true);
           
-          restaurant3.setName("Carracas");
+          restaurant3.setName("Caracas");
           restaurant3.setAddress("100 Hwy 77, Hayward, WI 53784");
           restaurant3.setLocation("Square");
           restaurant3.setRating("4");
@@ -91,15 +91,15 @@ import java.util.*;
      
      public void displayRestaurants() {
           // call the display method in a for loop
-         /* for (int counter1 = 0; counter1 < restaurants.size(); counter1++) {
+          /*for (int counter1 = 0; counter1 < 50; counter1++) {
               //restaurants[counter1].display();
               //restaurants.get(counter1).display();
               // line above is the same as the following 2 lines
               Restaurant restaurant = restaurants.get(counter1);
-              restaurant.display();
+              restaurant.toString();
               System.out.println();
-          }*/
-          
+          }
+          */
           for (Restaurant myRestaurant : restaurants) {
               System.out.println(myRestaurant);
               System.out.println();

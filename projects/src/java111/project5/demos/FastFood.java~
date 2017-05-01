@@ -7,6 +7,23 @@ package java111.project5.demos;
  public class FastFood extends Restaurant {
  
      private boolean kidsPlayArea;
+     
+     /** Constructor to create a fast food restaurant
+     */
+     public FastFood() {
+         System.out.println("The FastFood Class Constructor");
+     }
+     
+     /** Constructor to create a fast food restaurant with values for all instance variables
+     * //TODO @params coming later
+     */
+     public FastFood(String name, String address, String rating, boolean kidsPlayArea) {
+         super(name, address, rating);
+         this.kidsPlayArea = kidsPlayArea;
+         System.out.println("The FastFood Class Constructor");
+     }
+
+
 
 
 	/**

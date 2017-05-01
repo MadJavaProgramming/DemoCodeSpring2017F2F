@@ -11,6 +11,7 @@ package java111.project5.demos;
      /** Constructor to create a fast food restaurant
      */
      public FastFood() {
+         
          System.out.println("The FastFood Class Constructor");
      }
      

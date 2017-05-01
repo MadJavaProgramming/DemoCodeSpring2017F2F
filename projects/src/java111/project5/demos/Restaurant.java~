@@ -13,6 +13,24 @@ package java111.project5.demos;
     private String name;
     private String rating;  // number of stars
     
+    /** Constructor to create a restaurant
+     */
+     public Restaurant() {
+         //System.out.println("The Restaurant Class Constructor");
+     }
+     
+     /** Constructor to create a restaurant
+       * @param name name of the restaurant
+       * @param address address of the restaurant
+       * @param rating rating of the restaurant 1-5
+     */
+     public Restaurant(String name, String address, String rating) {
+         System.out.println("The Restaurant Class Constructor");
+         this.name = name;
+         this.address = address;
+         this.rating = rating;
+     }
+    
     /** returns the value of the address
      */
      public String getAddress(){

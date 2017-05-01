@@ -59,11 +59,22 @@ import java.util.*;
      public void createRestaurants() {
          // create a local variable to hold restaurants
          ArrayList<Restaurant> localArrayList = new ArrayList<Restaurant>();
-      // instantiate restaurant objects and assign them to the slots in the array     
+      // instantiate restaurant objects and assign them to the slots in the array    
+      
+        System.out.println("The count is " + Restaurant.count);
+        
+      
          FastFood restaurant1 = new FastFood("Red Robin", "100 Main St", "2", false);
+         System.out.println("The count is " + restaurant1.count);
          FineDining restaurant2 = new FineDining();
+         System.out.println("The count is " + restaurant2.count);
          FoodCart restaurant3 = new FoodCart();
+         System.out.println("The count is " + restaurant3.count);
          
+         
+          System.out.println("The count is " + Restaurant.count);
+          
+           System.out.println("The count is " + restaurant1.count);
           
           // assign values to instance variables
          // restaurant1.setName("Red Robin");
